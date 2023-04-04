@@ -121,7 +121,7 @@ console.log(bike);
 bike.returnVehical('bike')
 
 const car = new Car('suzuki', 1998, 1999, 1700, 'red')
-console.log('car rent:', bike.rentalRate());
+console.log('car rent:', car.rentalRate());
 console.log(car);
 car.rentVehical('car')
 console.log(car);
@@ -129,7 +129,7 @@ car.returnVehical('car')
 
 
 const truck = new Truck('Hondai', 1700, 1700, 2500, '4 ton')
-console.log('truck rent:', bike.rentalRate());
+console.log('truck rent:', truck.rentalRate());
 console.log(truck);
 car.rentVehical('truck')
 console.log(truck);
